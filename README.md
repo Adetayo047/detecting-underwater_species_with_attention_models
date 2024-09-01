@@ -38,7 +38,7 @@ This repository is an extensive open-source project showcasing the seamless inte
 Thank you team [Streamlit](<https://github.com/streamlit/streamlit>) for the community support for the cloud upload. 
 
 This app is up and running on Streamlit cloud server!!! You can check the demo of this web application on this link 
-[yolov8-streamlit-detection-tracking-webapp](https://yolov8-object-detection-and-tracking-app.streamlit.app/)
+[yolov8-streamlit-detection-tracking-webapp](https://detecting-underwater-species.streamlit.app/)
 
 **Note**: In the demo, Due to non-availability of GPUs, you may encounter slow video inferencing.
 
@@ -55,10 +55,8 @@ pip install ultralytics streamlit pytube
 
 ## Installation
 
-- Clone the repository: git clone <https://github.com/CodingMantras/yolov8-streamlit-detection-tracking.git>
+- Clone the repository: git clone (https://github.com/Adetayo047/detecting-underwater_species_with_attention_models.git)
 - Change to the repository directory: `cd yolov8-streamlit-detection-tracking`
-- Create `weights`, `videos`, and `images` directories inside the project.
-- Download the pre-trained YOLOv8 weights from (<https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8n.pt>) and save them to the `weights` directory in the same project.
 
 ## Usage
 
@@ -121,8 +119,6 @@ VIDEOS_DICT = {
 - Copy paste the url inside the text box.
 - The detection/segmentation task will start on the YouTube video url
 
-<https://user-images.githubusercontent.com/104087274/226178296-684ad72a-fe5f-4589-b668-95c835cd8d8a.mov>
-
 ## Acknowledgements
 
 This app uses [YOLOv8](<https://github.com/ultralytics/ultralytics>) for object detection algorithm and [Streamlit](<https://github.com/streamlit/streamlit>) library for the user interface. and also thanks to (https://medium.com/@mycodingmantras).
@@ -133,4 +129,3 @@ This app uses [YOLOv8](<https://github.com/ultralytics/ultralytics>) for object 
 - Object-Detection on Images And Live Video Streams
 - Python-OpenCV
 
-### Hit star ⭐ if you like this repo!!!
